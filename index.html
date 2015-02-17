@@ -1,0 +1,71 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="Author" content="Gerard Ferrandez at http://www.dhteumeuleu.com/">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="HandheldFriendly" content="true">
+<meta name="description" content="pile-o-boxes - rigid bodies physics simulation - HTML5 CANVAS Experiment">
+<meta name="keywords" content="canvas,box2D,collision,rigid bodies,physics engine">
+<link rel="canonical" href="http://www.dhteumeuleu.com/the-warehouse">
+<title>the warehouse - box2D - HTML5 CANVAS Experiment</title>
+<style>
+html {
+    overflow: hidden;
+    -ms-touch-action: none;
+    -ms-content-zooming: none;
+}
+body {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    background: #000;
+    width: 100%;
+    height: 100%;
+}
+#screen {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /*background: #10bdec;*/
+    /*background: #3d4245;*/
+    background: #333f46;
+}
+#textures,
+.textures {
+    visibility:hidden;
+}
+
+</style>
+<script src="library/ge1doot.js"></script>
+<script src="library/V2.js"></script>
+<script src="library/PHY2D.js"></script>
+<script src="library/app.js"></script>
+
+</head>
+<body>
+<canvas id="screen">HTML5 CANVAS box 2D demo</canvas>
+<div id="textures">
+    <!-- <img src="images/caisse_bois_frag3.jpg" alt=""> -->
+    <!-- <img src="images/caisse_metal_02.jpg" alt=""> -->
+    <img src="images/sofa-1.png" alt="">
+    <!-- <img src="images/sofa-2.png" alt=""> -->
+    <!-- <img src="images/sofa-3.png" alt="">
+    <img src="images/sofa-4.png" alt="">
+    <img src="images/sofa-5.png" alt="">
+    <img src="images/sofa-6.png" alt=""> -->
+    
+    <!-- <img src="images/caisse_explosive_f2.jpg" alt=""> -->
+    <!-- <img src="images/caisse_export.jpg" alt=""> -->
+    <!-- <img src="images/caisse_bois_frag3.jpg" alt=""> -->
+    <!-- <img src="images/caisse_jurancon_face1.jpg" alt=""> -->
+    <!-- <img src="images/caisse_jurancon_face2.jpg" alt=""> -->
+    <!-- <img src="images/miam-fruit2.jpg" alt=""> -->
+    <!-- <img src="images/caisse_orange_face1.jpg" alt=""> -->
+</div>
+<img id="blade" class="textures" src="images/caisse_coke_f2.jpg" alt="">
+<!-- <img id="triangle" class="textures" src="images/triangle-2.png" alt=""> -->
+</body>
+</html>
